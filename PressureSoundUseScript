@@ -30,56 +30,56 @@ Pressure.Text = "Pressure"
 Pressure.TextSize = 32
 
 TextButton1.Parent = Frame
-TextButton1.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton1.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton1.Size = UDim2.new(0, 150, 0, 50)
 TextButton1.Position = UDim2.new(0.1, -20, 0.5, -140)
 TextButton1.Text = "Psst..."
 TextButton1.TextSize = 20
 
 TextButton2.Parent = Frame
-TextButton2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton2.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton2.Size = UDim2.new(0, 150, 0, 50)
 TextButton2.Position = UDim2.new(0.1, 190, 0.5, -140)
 TextButton2.Text = "Baldi Stun"
 TextButton2.TextSize = 20
 
 TextButton3.Parent = Frame
-TextButton3.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton3.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton3.Size = UDim2.new(0, 150, 0, 50)
 TextButton3.Position = UDim2.new(0.1, -20, 0.5, -60)
 TextButton3.Text = "FNAF 2"
 TextButton3.TextSize = 20
 
 TextButton4.Parent = Frame
-TextButton4.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton4.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton4.Size = UDim2.new(0, 150, 0, 50)
 TextButton4.Position = UDim2.new(0.1, 190, 0.5, -60)
 TextButton4.Text = "Mutual"
 TextButton4.TextSize = 20
 
 TextButton5.Parent = Frame
-TextButton5.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton5.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton5.Size = UDim2.new(0, 150, 0, 50)
 TextButton5.Position = UDim2.new(0.1, -20, 0.5, 20)
 TextButton5.Text = "Baldi Spawn"
 TextButton5.TextSize = 18
 
 TextButton6.Parent = Frame
-TextButton6.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton6.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton6.Size = UDim2.new(0, 150, 0, 50)
 TextButton6.Position = UDim2.new(0.1, 190, 0.5, 20)
 TextButton6.Text = "SCARY GHOST!!!"
 TextButton6.TextSize = 12
 
 TextButton7.Parent = Frame
-TextButton7.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton7.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton7.Size = UDim2.new(0, 150, 0, 50)
 TextButton7.Position = UDim2.new(0.1, -20, 0.5, 100)
 TextButton7.Text = "Moron"
 TextButton7.TextSize = 20
 
 TextButton8.Parent = Frame
-TextButton8.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton8.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton8.Size = UDim2.new(0, 150, 0, 50)
 TextButton8.Position = UDim2.new(0.1, 190, 0.5, 100)
 TextButton8.Text = "Funny"
