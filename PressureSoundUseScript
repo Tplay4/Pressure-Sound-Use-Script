@@ -1,0 +1,188 @@
+-- Created by Tplay
+
+-- PRESSURE SCRIPT
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Pressure = Instance.new("TextLabel")
+local Tplay = Instance.new("TextLabel")
+local TextButton1 = Instance.new("TextButton")
+local TextButton2 = Instance.new("TextButton")
+local TextButton3 = Instance.new("TextButton")
+local TextButton4 = Instance.new("TextButton")
+local TextButton5 = Instance.new("TextButton")
+local TextButton6 = Instance.new("TextButton")
+local TextButton7 = Instance.new("TextButton")
+local TextButton8 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+Frame.Size = UDim2.new(0, 400, 0, 400)
+Frame.Position = UDim2.new(0.1, -20, 0.5, -100)
+
+Pressure.Parent = Frame
+Pressure.BackgroundTransparency = 1
+Pressure.Size = UDim2.new(0, 400, 0, 400)
+Pressure.Position = UDim2.new(0.1, -40, 0.5, -375)
+Pressure.Text = "Pressure"
+Pressure.TextSize = 32
+
+TextButton1.Parent = Frame
+TextButton1.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton1.Size = UDim2.new(0, 150, 0, 50)
+TextButton1.Position = UDim2.new(0.1, -20, 0.5, -140)
+TextButton1.Text = "Psst..."
+TextButton1.TextSize = 20
+
+TextButton2.Parent = Frame
+TextButton2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton2.Size = UDim2.new(0, 150, 0, 50)
+TextButton2.Position = UDim2.new(0.1, 190, 0.5, -140)
+TextButton2.Text = "Baldi Stun"
+TextButton2.TextSize = 20
+
+TextButton3.Parent = Frame
+TextButton3.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton3.Size = UDim2.new(0, 150, 0, 50)
+TextButton3.Position = UDim2.new(0.1, -20, 0.5, -60)
+TextButton3.Text = "FNAF 2"
+TextButton3.TextSize = 20
+
+TextButton4.Parent = Frame
+TextButton4.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton4.Size = UDim2.new(0, 150, 0, 50)
+TextButton4.Position = UDim2.new(0.1, 190, 0.5, -60)
+TextButton4.Text = "Mutual"
+TextButton4.TextSize = 20
+
+TextButton5.Parent = Frame
+TextButton5.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton5.Size = UDim2.new(0, 150, 0, 50)
+TextButton5.Position = UDim2.new(0.1, -20, 0.5, 20)
+TextButton5.Text = "Baldi Spawn"
+TextButton5.TextSize = 18
+
+TextButton6.Parent = Frame
+TextButton6.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton6.Size = UDim2.new(0, 150, 0, 50)
+TextButton6.Position = UDim2.new(0.1, 190, 0.5, 20)
+TextButton6.Text = "SCARY GHOST!!!"
+TextButton6.TextSize = 12
+
+TextButton7.Parent = Frame
+TextButton7.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton7.Size = UDim2.new(0, 150, 0, 50)
+TextButton7.Position = UDim2.new(0.1, -20, 0.5, 100)
+TextButton7.Text = "Moron"
+TextButton7.TextSize = 20
+
+TextButton8.Parent = Frame
+TextButton8.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextButton8.Size = UDim2.new(0, 150, 0, 50)
+TextButton8.Position = UDim2.new(0.1, 190, 0.5, 100)
+TextButton8.Text = "Funny"
+TextButton8.TextSize = 20
+
+Tplay.Parent = Frame
+Tplay.BackgroundTransparency = 1
+Tplay.Size = UDim2.new(0, 400, 0, 400)
+Tplay.Position = UDim2.new(0.1, -172, 0.5, -12)
+Tplay.Text = "Created by Tplay"
+Tplay.TextSize = 12
+
+local script = Instance.new('LocalScript', TextButton1)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("trolling"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton2)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Baldi"):WaitForChild("Baldi"):WaitForChild("BaldiStun"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton3)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("Fnaf2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton4)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("DeathFolder"):WaitForChild("TheSaboteur"):WaitForChild("Voicelines"):WaitForChild("Mutual"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton5)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Baldi"):WaitForChild("Baldi"):WaitForChild("BaldiSpawn"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton6)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("SCARY GHOST!!!"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("SCARY GHOST!!!"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("SCARY GHOST!!!"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("DirectionalAmbience"):WaitForChild("SCARY GHOST!!!"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton7)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("Painter"):WaitForChild("Door"):WaitForChild("Survived"):WaitForChild("Survived2"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton8)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("Painter"):WaitForChild("Gauntlet"):WaitForChild("Start"):WaitForChild("Enter5"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	Frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+Frame.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Frame.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
