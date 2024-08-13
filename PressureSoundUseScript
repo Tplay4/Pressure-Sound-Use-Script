@@ -14,81 +14,97 @@ local TextButton5 = Instance.new("TextButton")
 local TextButton6 = Instance.new("TextButton")
 local TextButton7 = Instance.new("TextButton")
 local TextButton8 = Instance.new("TextButton")
+local TextButton9 = Instance.new("TextButton")
+local TextButton10 = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
-Frame.Size = UDim2.new(0, 400, 0, 400)
+Frame.Size = UDim2.new(0, 400, 0, 475)
 Frame.Position = UDim2.new(0.1, -20, 0.5, -100)
 
 Pressure.Parent = Frame
 Pressure.BackgroundTransparency = 1
 Pressure.Size = UDim2.new(0, 400, 0, 400)
-Pressure.Position = UDim2.new(0.1, -40, 0.5, -375)
+Pressure.Position = UDim2.new(0.1, -40, 0.5, -400)
 Pressure.Text = "Pressure"
 Pressure.TextSize = 32
 
 TextButton1.Parent = Frame
 TextButton1.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton1.Size = UDim2.new(0, 150, 0, 50)
-TextButton1.Position = UDim2.new(0.1, -20, 0.5, -140)
+TextButton1.Position = UDim2.new(0.1, -20, 0.5, -160)
 TextButton1.Text = "Psst..."
 TextButton1.TextSize = 20
 
 TextButton2.Parent = Frame
 TextButton2.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton2.Size = UDim2.new(0, 150, 0, 50)
-TextButton2.Position = UDim2.new(0.1, 190, 0.5, -140)
+TextButton2.Position = UDim2.new(0.1, 190, 0.5, -160)
 TextButton2.Text = "Baldi Stun"
 TextButton2.TextSize = 20
 
 TextButton3.Parent = Frame
 TextButton3.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton3.Size = UDim2.new(0, 150, 0, 50)
-TextButton3.Position = UDim2.new(0.1, -20, 0.5, -60)
+TextButton3.Position = UDim2.new(0.1, -20, 0.5, -80)
 TextButton3.Text = "FNAF 2"
 TextButton3.TextSize = 20
 
 TextButton4.Parent = Frame
 TextButton4.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton4.Size = UDim2.new(0, 150, 0, 50)
-TextButton4.Position = UDim2.new(0.1, 190, 0.5, -60)
+TextButton4.Position = UDim2.new(0.1, 190, 0.5, -80)
 TextButton4.Text = "Mutual"
 TextButton4.TextSize = 20
 
 TextButton5.Parent = Frame
 TextButton5.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton5.Size = UDim2.new(0, 150, 0, 50)
-TextButton5.Position = UDim2.new(0.1, -20, 0.5, 20)
+TextButton5.Position = UDim2.new(0.1, -20, 0.5, 0)
 TextButton5.Text = "Baldi Spawn"
 TextButton5.TextSize = 18
 
 TextButton6.Parent = Frame
 TextButton6.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton6.Size = UDim2.new(0, 150, 0, 50)
-TextButton6.Position = UDim2.new(0.1, 190, 0.5, 20)
+TextButton6.Position = UDim2.new(0.1, 190, 0.5, 0)
 TextButton6.Text = "SCARY GHOST!!!"
 TextButton6.TextSize = 12
 
 TextButton7.Parent = Frame
 TextButton7.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton7.Size = UDim2.new(0, 150, 0, 50)
-TextButton7.Position = UDim2.new(0.1, -20, 0.5, 100)
+TextButton7.Position = UDim2.new(0.1, -20, 0.5, 80)
 TextButton7.Text = "Moron"
 TextButton7.TextSize = 20
 
 TextButton8.Parent = Frame
 TextButton8.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
 TextButton8.Size = UDim2.new(0, 150, 0, 50)
-TextButton8.Position = UDim2.new(0.1, 190, 0.5, 100)
+TextButton8.Position = UDim2.new(0.1, 190, 0.5, 80)
 TextButton8.Text = "Funny"
 TextButton8.TextSize = 20
+
+TextButton9.Parent = Frame
+TextButton9.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
+TextButton9.Size = UDim2.new(0, 150, 0, 50)
+TextButton9.Position = UDim2.new(0.1, -20, 0.5, 160)
+TextButton9.Text = "Punch"
+TextButton9.TextSize = 20
+
+TextButton10.Parent = Frame
+TextButton10.BackgroundColor3 = Color3.fromRGB(210, 210, 210)
+TextButton10.Size = UDim2.new(0, 150, 0, 50)
+TextButton10.Position = UDim2.new(0.1, 190, 0.5, 160)
+TextButton10.Text = "Styx Jumpscare"
+TextButton10.TextSize = 14
 
 Tplay.Parent = Frame
 Tplay.BackgroundTransparency = 1
 Tplay.Size = UDim2.new(0, 400, 0, 400)
-Tplay.Position = UDim2.new(0.1, -172, 0.5, -12)
+Tplay.Position = UDim2.new(0.1, -172, 0.5, 25)
 Tplay.Text = "Created by Tplay"
 Tplay.TextSize = 12
 
@@ -149,6 +165,18 @@ local script = Instance.new('LocalScript', TextButton8)
 
 script.Parent.MouseButton1Click:Connect(function()
 	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Sounds"):WaitForChild("Painter"):WaitForChild("Gauntlet"):WaitForChild("Start"):WaitForChild("Enter5"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton9)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("Workspace"):WaitForChild("SebAtk_Grab"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
+end)
+
+local script = Instance.new('LocalScript', TextButton10)
+
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ReplicateSound"):FireServer(game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Styx"):WaitForChild("Styx"):WaitForChild("StyxJumpscare"), game:GetService("Players").LocalPlayer.Character.LowerTorso, 1000, true)
 end)
 
 local dragging
